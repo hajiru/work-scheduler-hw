@@ -9,7 +9,7 @@ learn more about JS and how to display time in real time along with using if fun
 
 ## Usage
 
-Visit my deployed page here:
+Visit my deployed page here: https://hajiru.github.io/work-scheduler-hw/
 
 ![alt text](assets/images/screenshot.png)
 
