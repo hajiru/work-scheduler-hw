@@ -34,7 +34,6 @@ $(".time-block").each(function () {
   } 
 });
 
-
 // Keeps/Retrieves stored text of each text area //
 $("#hour-9 .description").val(localStorage.getItem("9"));
 $("#hour-10 .description").val(localStorage.getItem("10"));
