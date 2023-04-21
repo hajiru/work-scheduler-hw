@@ -24,8 +24,10 @@ $(".saveBtn").click(function () {
 $(".time-block").each(function () {
   let ourHour = dayjs().format("HH");
   let blockHour = parseInt($(this).attr("id").split("-")[1]);
+  console.log(ourHour);
+  console.log(blockHour);
 
-  if (blockHour === ourHour) {
+  if (blockHour == ourHour) {
     $(this).addClass("present");
   } else if (blockHour > ourHour) {
     $(this).addClass("future");
@@ -39,8 +41,8 @@ $("#hour-9 .description").val(localStorage.getItem("9"));
 $("#hour-10 .description").val(localStorage.getItem("10"));
 $("#hour-11 .description").val(localStorage.getItem("11"));
 $("#hour-12 .description").val(localStorage.getItem("12"));
-$("#hour-1 .description").val(localStorage.getItem("1"));
-$("#hour-2 .description").val(localStorage.getItem("2"));
-$("#hour-3 .description").val(localStorage.getItem("3"));
-$("#hour-4 .description").val(localStorage.getItem("4"));
-$("#hour-5 .description").val(localStorage.getItem("5"));
+$("#hour-13 .description").val(localStorage.getItem("13"));
+$("#hour-14 .description").val(localStorage.getItem("14"));
+$("#hour-15 .description").val(localStorage.getItem("15"));
+$("#hour-16 .description").val(localStorage.getItem("16"));
+$("#hour-17 .description").val(localStorage.getItem("17"));
