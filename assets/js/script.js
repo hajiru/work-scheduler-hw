@@ -1,4 +1,4 @@
-const currentTime = $("#currentDay");
+let currentTime = $("#currentDay");
 
 // Function to display time and format it in a specific way //
 function showTime() {
